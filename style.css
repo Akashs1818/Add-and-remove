@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: medium;
-    
-    }
-
-    html, body {
+      html, body {
         height: 100%;
         width: 100%;
     }
@@ -19,15 +11,42 @@
 
     #card{
         border-radius: 10px;
-        height: 450px;
-        width: 400;
+        height: 300px;
+        width: 300px;
         background-color: #fff;
+        padding: 30px;
+        text-align: center;
     }
 
     #card img{
-        height: 50%;
+        height: 80%;
         width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
 
     }
+    #card h1{
+        font-size: 25px;
+        color: rgb(46, 46, 46);
+        margin-top: 0px;
 
+    }
+    #card h5{
+        font-size: 20px;
+        margin: 0px;
+        color: red;
+        margin-top: 0px;
+    }
+    #card button{
+        background-color: aquamarine;
+        color: #fff;
+        font-weight:700 ;
+        padding: 10px,15px ;
+        border-radius: 5px;
+        border: 5px;
+        cursor: pointer;
+    }
     
+    
+
